@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     active_record_to_xls (1.0.0)
-      spreadsheet (>= 0.8.5)
+      spreadsheet (~> 0.8.5)
 
 GEM
   remote: https://rubygems.org/
@@ -22,7 +22,7 @@ GEM
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
     ruby-ole (1.2.12.1)
-    spreadsheet (1.1.7)
+    spreadsheet (0.8.9)
       ruby-ole (>= 1.0)
 
 PLATFORMS
@@ -30,7 +30,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_record_to_xls!
-  rspec
+  rspec (~> 3.7.0)
 
 BUNDLED WITH
    1.16.2

@@ -13,8 +13,8 @@ Gem::Specification.new do |spec|
   spec.files                     = Dir["{lib,test}/**/*", "[a-zA-Z]*", "init.rb"] - ["Gemfile.lock"]
   spec.require_path              = "lib"
   spec.license                   = 'MIT'
-  spec.add_dependency('spreadsheet', '>= 0.8.5')
-  spec.add_development_dependency "rspec"
+  spec.add_runtime_dependency 'spreadsheet', '~> 0.8.5'
+  spec.add_development_dependency 'rspec', '~> 3.7.0'
   spec.platform                  = Gem::Platform::RUBY
   spec.required_rubygems_version = ">= 1.3.4"
 end
