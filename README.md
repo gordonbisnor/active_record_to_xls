@@ -22,10 +22,12 @@ Mime::Type.register_alias "text/excel", :xls
 
 **controller**: 
 
+```ruby
 format.xls {
   filename = “my_export.xls”
   send_data ActiveRecordToXls.call(Widget.all)
 }
+```
 
 **view:**  
 
