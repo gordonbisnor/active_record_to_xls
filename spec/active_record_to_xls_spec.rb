@@ -1,7 +1,6 @@
 require 'spec_helper'
 require 'ostruct'
 
-
 describe ActiveRecordToXls do
 
   let(:foo) {
@@ -23,7 +22,6 @@ describe ActiveRecordToXls do
   }
   
   let(:items) { [foo, baz] }
- 
   
   describe 'being called' do
    
